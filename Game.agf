@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>0</AudioIndexer>
+      <AudioIndexer>3</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets>Windows</BuildTargets>
@@ -4909,7 +4909,21 @@ See KeyboardMovement.txt for details.
           </AudioClipFolder>
           <AudioClipFolder Name="Sounds">
             <SubFolders />
-            <AudioClips />
+            <AudioClips>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>0</ID>
+                <Index>3</Index>
+                <ScriptName>aHand_sanitizer_dispenser_EDIT_LOW</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\hwideman\Documents\Hunter Wideman Indie Tools Fall 2024\Class Participation\Hand sanitizer dispenser EDIT LOW.mp3</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-08-28 15:41:52Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
             <AudioClipFolder>
               <DefaultBundlingType>InGameEXE</DefaultBundlingType>
               <DefaultPriority>Inherit</DefaultPriority>
